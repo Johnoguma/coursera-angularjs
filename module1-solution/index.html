@@ -15,10 +15,10 @@
     <input type="text" id="lunchItems"
            ng-model="lunchItems"
            placeholder="e.g. apple, sandwich, juice"
-           ng-class="messageClass">
+           ng-class="inputClass">
 
     <button ng-click="checkLunch()">Check if too much</button>
-    <p ng-class="messageClass" ng-show="message">{{ message }}</p>
+    <p ng-if="message" ng-class="messageClass" ng-show="message">{{ message }}</p>
     <p class="note">Note: Empty items (like `, ,`) are not counted.</p>
   </div>
 </body>

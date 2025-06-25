@@ -1,19 +1,29 @@
-.green {
-  color: green;
-  border: 2px solid green;
-}
-
+/* For text color of message (used on <p>) */
 .red {
   color: red;
+}
+
+.green {
+  color: green;
+}
+
+/* For border color of input */
+.input-red {
   border: 2px solid red;
 }
 
+.input-green {
+  border: 2px solid green;
+}
+
+/* Input styling */
 input {
   padding: 8px;
   margin-bottom: 8px;
   display: block;
 }
 
+/* Note styling */
 .note {
   font-size: 0.8em;
   color: gray;
